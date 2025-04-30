@@ -29,8 +29,32 @@
 - 📊 Teachers can view average marks of students.
 - 🧾 Students can view results for each test they attempted.
 - 📝 Teachers have full control over question creation and test setup.
+- 
+---
+## 🚀 How to Run
 
+1. **Extract the Project:**
+   - Download and extract the `virtualinvigilator.zip` file.
 
+2. **Open in NetBeans:**
+   - Open NetBeans IDE.
+   - Go to `File` > `Open Project` and select the extracted folder.
+
+3. **Add MySQL Connector:**
+   - Download the MySQL JDBC connector (`mysql-connector-java-x.x.xx.jar`).
+   - Right-click the project in NetBeans.
+   - Go to `Properties` > `Libraries` > `Add JAR/Folder` and add the connector JAR.
+
+4. **Set Up Database:**
+   - Start your local server using XAMPP or similar.
+   - Open `phpMyAdmin` at [http://localhost/phpmyadmin](http://localhost/phpmyadmin).
+   - Create a new database.
+   - Import the provided `.sql` file to create necessary tables and data.
+
+5. **Run the Project:**
+   - Click the green run button in NetBeans to start the application.
+
+---
 ## 🛠 Technologies Used
 
 - **Java (Swing)** — For graphical user interface.
