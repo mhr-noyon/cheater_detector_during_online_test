@@ -48,7 +48,7 @@
 4. **Set Up Database:**
    - Start your local server using XAMPP or similar.
    - Open `phpMyAdmin` at [http://localhost/phpmyadmin](http://localhost/phpmyadmin).
-   - Create a new database.
+   - Create a new database named "OnlineTestSystem".
    - Import the provided `.sql` file to create necessary tables and data.
 
 5. **Run the Project:**
